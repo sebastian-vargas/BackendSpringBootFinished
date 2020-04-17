@@ -1,11 +1,11 @@
 INSERT INTO materias(`id`, `nombre`) VALUES
 (1, 'Materia de Historia'),
-(2, 'Materia de Java'),
+(2, 'Materia de Java');
 
 
 INSERT INTO examenes(`id`, `fk_materia`, `descripcion`, `nota_maxima`) VALUES
 (1, 1, 'Examen de Historia unica,multiple y respuesta abierta', 5),
-(2, 2, 'Examen de Java solo unica y multiple respuesta', 5),
+(2, 2, 'Examen de Java solo unica y multiple respuesta', 5);
 
 
 INSERT INTO profesores(`id`, `nombres`, `apellidos`, `fk_materia`) VALUES
@@ -33,7 +33,7 @@ INSERT INTO preguntas(`id`,`fk_examen_id`,`descripcion`,`imagen`,`valoracion`,`t
 (6,2,'¿Còmo se define una variable entera en Java?','',25,'unica'),
 (7,2,'¿Seleccione la respuesta que defina el tipo de dato booleano?','',25,'unica'),
 (8,2,'¿Selecciones las respuestas que caracterisen a Java?','',25,'unica'),
-(9,2,'¿seleccione dos entornos de desarrollo para Java?','',25,'unica'),
+(9,2,'¿seleccione dos entornos de desarrollo para Java?','',25,'unica');
 
 INSERT INTO respuestas(`id`,`fk_pregunta_id`,`respuesta`,`correcta`) VALUES
 (14,6,'int',1),
@@ -49,12 +49,12 @@ INSERT INTO respuestas(`id`,`fk_pregunta_id`,`respuesta`,`correcta`) VALUES
 (21,8,'Orientado a Objetos',1),
 (22,8,'Distribuido',1),
 (23,8,'Robusto',1),
-(23,8,'inseguro',0);
+(24,8,'inseguro',0);
 
 INSERT INTO respuestas(`id`,`fk_pregunta_id`,`respuesta`,`correcta`) VALUES
-(24,9,'Visual Studio',1),
-(25,9,'Netbeans IDE',1),
-(26,9,'Ninguna',0);
+(25,9,'Visual Studio',1),
+(26,9,'Netbeans IDE',1),
+(27,9,'Ninguna',0);
 
 INSERT INTO respuestas(`id`,`fk_pregunta_id`,`respuesta`,`correcta`) VALUES
 (1,1,'Cristobal Colon',1),
