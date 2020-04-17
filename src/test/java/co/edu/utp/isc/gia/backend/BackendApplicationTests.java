@@ -7,10 +7,10 @@ import org.springframework.test.context.junit4.SpringRunner;
 
 
 @SpringBootTest
-class BackendApplicationTests {
+public class BackendApplicationTests {
 
 	@Test
-	void contextLoads() {
+	public void contextLoads() {
 	}
 
 }
