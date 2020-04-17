@@ -68,6 +68,7 @@ INSERT INTO respuestas(`id`,`fk_pregunta_id`,`respuesta`,`correcta`) VALUES
 
 
 
+
 INSERT INTO respuestas(`id`,`fk_pregunta_id`,`respuesta`,`correcta`) VALUES
 (7,3,'1600',0),
 (8,3,'1803',0),
